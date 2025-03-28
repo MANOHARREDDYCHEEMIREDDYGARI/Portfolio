@@ -6,7 +6,7 @@ function Header() {
             <img src={profileImg} alt="Profile" style={styles.img} />
             <div>
                 <h1 style={styles.title}>C Manohar Reddy</h1>
-                <p style={styles.subtitle}>Software Engineer | Data Engineer</p>
+                <p style={styles.subtitle}>Software Engineer | Fullstack Development | Web Development</p>
                 <nav style={styles.nav}>
                     <a href="#about" style={styles.link}>About</a>
                     <a href="#projects" style={styles.link}>Projects</a>
