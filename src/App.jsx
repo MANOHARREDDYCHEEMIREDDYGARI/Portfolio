@@ -3,6 +3,8 @@ import About from './components/About';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Experience from './components/Experience.jsx';
+import Certifications from "./components/Certifications.jsx";
 
 
 function Greet(){
@@ -19,6 +21,7 @@ function App() {
       <div>
         {/*<Header />
             <About />
+            <Skills/>
             <Projects />
             <Contact />
             <Footer />*/}
@@ -26,6 +29,13 @@ function App() {
           <Header />
           <div id="about">
             <About />
+              <div id ="experience">
+                  <Experience />
+              </div>
+              <div
+                  id ="certifications">
+                  <Certifications />
+              </div>
           </div>
           <div id="projects">
             <Projects />
